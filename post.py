@@ -7,8 +7,8 @@ from dk import photo
 def post():
     z = photo()
     tags = "#anime #manga #otaku #art #animeart #animegirl #cosplay #naruto #kawaii #animeedits #fanart #drawing #animememes #memes #animeedit #cute #love #meme #animes #japan #onepiece #digitalart #animelover #edit #weeb #artist #animelove #like #cosplayer #bot"
-    username = "abuwu69"
-    passwd = "abuisgr8"
+    username = ""
+    passwd = ""
     driverpth = "C:\\Program Files (x86)\\chromedriver.exe"
     photopath = "C:\\Users\\abuba\\OneDrive\\Desktop\\otakukamisama\\1.jpg"
     phototext = "Anime: "+z[0]+"-""Synopsis: "+z[1]+"\n.\n.\n.\n.\n.\n.\n.\n.Tags: \n"+tags
