@@ -16,12 +16,9 @@ def post():
     options = Options()
     options.add_argument("--log-level=3")
     options.add_argument("--silent")
-    #options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-logging")
     options.add_argument("--mute-audio")
-    #mobile_emulation = {"deviceName": "Nexus 5"}
-    #options.add_experimental_option("mobileEmulation", mobile_emulation)
     options.add_argument('--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1')
     driver = webdriver.Chrome(executable_path=driverpth,options=options)
     driver.get("https://www.instagram.com/accounts/login/")
