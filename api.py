@@ -20,8 +20,6 @@ def heading():
     time.sleep(2)
     driver.find_element_by_xpath("/html/body/main/section/footer/button[1]").click()
     time.sleep(5)
-
-
     title = driver.find_elements_by_xpath("/html/body/main/div/div/header/div[1]/div[2]/h3/span[1]")
     for post in title:
         name = post.text
